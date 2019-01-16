@@ -1,2 +1,2 @@
 def greet(name):
-    return "not implemented"
+    return "Hello, " + name + "."

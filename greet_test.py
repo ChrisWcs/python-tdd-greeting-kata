@@ -8,3 +8,8 @@ class TestGreet(unittest.TestCase):
         self.assertEqual(greet(None), "Hello, my friend.")
     def test_shout(self):
         self.assertEqual(greet("KHAN"), "HELLO KHAN!")
+    def test_many(self):
+        self.assertEqual(greet(["Spock", "Bones"]), "Hello, Spock and Bones.")
+    def test_lots(self):
+        self.assertEqual(greet(["Spock", "Bones", "Scotty"]), "Hello, Spock, Bones, and Scotty.")
+    
